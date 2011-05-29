@@ -2,4 +2,5 @@ languages/P3DemoDsl/classes_gen/
 languages/P3DemoDsl/source_gen.caches/
 languages/P3DemoDsl/source_gen/
 org.dslengineering.p3demo.iws
-
+solutions/org.dslengineering.p3demo.sandbox/source_gen.caches
+solutions/org.dslengineering.p3demo.sandbox/source_gen
