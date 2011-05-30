@@ -122,7 +122,7 @@
       <link role="target" roleId="tpce.1071599976176" targetNodeId="8316086282569151553" resolveInfo="Event" />
     </node>
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="8316086282569207972">
-      <property name="value" nameId="tpce.1105725733873" value="event" />
+      <property name="value" nameId="tpce.1105725733873" value="-&gt;" />
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
     </node>
   </root>
