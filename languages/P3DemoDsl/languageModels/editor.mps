@@ -17,6 +17,9 @@
   <root id="4974337402953242857">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4974337402953242859">
       <property name="text" nameId="tpc2.1073389577007" value="complex" />
+      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.ForegroundColorStyleClassItem" typeId="tpc2.1186404549998" id="6435501884275942943">
+        <property name="color" nameId="tpc2.1186403713874" value="DARK_BLUE" />
+      </node>
     </node>
   </root>
   <root id="4974337402953247955">

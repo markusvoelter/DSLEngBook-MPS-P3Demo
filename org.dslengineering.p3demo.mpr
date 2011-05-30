@@ -8,6 +8,7 @@
     <projectModules>
       <modulePath path="${project}/languages/P3DemoDsl/P3DemoDsl.mpl" />
       <modulePath path="${project}/solutions/org.dslengineering.p3demo.sandbox/org.dslengineering.p3demo.sandbox.msd" />
+      <modulePath path="${project}/languages/JsmDsl/JsmDsl.mpl" folder="" />
     </projectModules>
     <genConfs />
   </component>

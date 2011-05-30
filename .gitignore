@@ -5,3 +5,7 @@ org.dslengineering.p3demo.iws
 solutions/org.dslengineering.p3demo.sandbox/source_gen.caches
 solutions/org.dslengineering.p3demo.sandbox/source_gen
 solutions/org.dslengineering.p3demo.sandbox/classes_gen
+languages/JsmDsl/classes_gen/
+languages/JsmDsl/source_gen.caches/
+languages/JsmDsl/source_gen/
+

@@ -6,6 +6,8 @@
   </models>
   <usedLanguages>
     <usedLanguage>445d27b9-9fc1-437f-b9b2-bec095116056(org.dslengineering.p3demo.P3DemoDsl)</usedLanguage>
+    <usedLanguage>e7a36357-7fbe-4097-ae32-e835d6f4a581(org.dslengineering.p3demo.JsmDsl)</usedLanguage>
+    <usedLanguage>e7a36357-7fbe-4097-ae32-e835d6f4a581(org.dslengineering.p3demo.JsmDsl)</usedLanguage>
   </usedLanguages>
 </solution>
 
