@@ -109,7 +109,7 @@
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="8316086282569207969" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8316086282569207970" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="8316086282569207971">
-        <node role="statement" roleId="tpee.1068581517665" type="qglu.EventTriggerStatement" typeId="qglu.8316086282569197208" id="8316086282569209262">
+        <node role="statement" roleId="tpee.1068581517665" type="qglu.EventTriggerStatement" typeId="qglu.8316086282569197208" id="8138929854666889038">
           <link role="machine" roleId="qglu.8316086282569197209" targetNodeId="8316086282569212572" resolveInfo="Lights" />
           <link role="event" roleId="qglu.8316086282569197210" targetNodeId="8316086282569212574" resolveInfo="buttonPressed" />
         </node>
