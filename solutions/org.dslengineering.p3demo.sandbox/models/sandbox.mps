@@ -38,7 +38,7 @@
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8316086282569184956">
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8316086282569184957">
-                <property name="value" nameId="tpee.1070475926801" value="green on" />
+                <property name="value" nameId="tpee.1070475926801" value="green an" />
               </node>
             </node>
           </node>
@@ -142,46 +142,29 @@
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="2511924617088019334" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="2511924617088019335" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="2511924617088019336">
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2511924617088019337">
-          <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="2511924617088019338">
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Thread%dsleep(long)%cvoid" resolveInfo="sleep" />
-            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~Thread" resolveInfo="Thread" />
-            <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2511924617088019339">
+        <node role="statement" roleId="tpee.1068581517665" type="qglu.SmTest" typeId="qglu.4928802662337703165" id="4928802662337824796">
+          <link role="sm" roleId="qglu.4928802662337703171" targetNodeId="8316086282569212572" resolveInfo="Lights" />
+          <node role="steps" roleId="qglu.4928802662337703168" type="qglu.WaitStep" typeId="qglu.4928802662337824804" id="4928802662337872671">
+            <node role="time" roleId="qglu.4928802662337824830" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4928802662337872673">
               <property name="value" nameId="tpee.1068580320021" value="1100" />
             </node>
           </node>
-        </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2511924617088019340">
-          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2511924617088019341">
-            <node role="operand" roleId="tpee.1197027771414" type="tpee.ThisExpression" typeId="tpee.1070475354124" id="2511924617088019355" />
-            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2511924617088019343">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8316086282569207968" resolveInfo="somebodyPressedTheButton" />
-            </node>
+          <node role="steps" roleId="qglu.4928802662337703168" type="qglu.TriggerStep" typeId="qglu.4928802662337703189" id="4928802662337824797">
+            <link role="event" roleId="qglu.4928802662337703190" targetNodeId="8316086282569212574" resolveInfo="buttonPressed" />
           </node>
-        </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2511924617088019344">
-          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2511924617088019345">
-            <node role="operand" roleId="tpee.1197027771414" type="tpee.ThisExpression" typeId="tpee.1070475354124" id="2511924617088019356" />
-            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2511924617088019347">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8316086282569207968" resolveInfo="somebodyPressedTheButton" />
-            </node>
+          <node role="steps" roleId="qglu.4928802662337703168" type="qglu.AssertStateStep" typeId="qglu.4928802662337703202" id="4928802662337824799">
+            <link role="state" roleId="qglu.4928802662337703203" targetNodeId="8316086282569212577" resolveInfo="green" />
           </node>
-        </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2511924617088019348">
-          <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="2511924617088019349">
-            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~Thread" resolveInfo="Thread" />
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Thread%dsleep(long)%cvoid" resolveInfo="sleep" />
-            <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2511924617088019350">
+          <node role="steps" roleId="qglu.4928802662337703168" type="qglu.WaitStep" typeId="qglu.4928802662337824804" id="4928802662337971273">
+            <node role="time" roleId="qglu.4928802662337824830" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4928802662337971274">
               <property name="value" nameId="tpee.1068580320021" value="1100" />
             </node>
           </node>
-        </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2511924617088019351">
-          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2511924617088019352">
-            <node role="operand" roleId="tpee.1197027771414" type="tpee.ThisExpression" typeId="tpee.1070475354124" id="2511924617088019357" />
-            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2511924617088019354">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8316086282569207968" resolveInfo="somebodyPressedTheButton" />
-            </node>
+          <node role="steps" roleId="qglu.4928802662337703168" type="qglu.TriggerStep" typeId="qglu.4928802662337703189" id="4928802662337824801">
+            <link role="event" roleId="qglu.4928802662337703190" targetNodeId="8316086282569212574" resolveInfo="buttonPressed" />
+          </node>
+          <node role="steps" roleId="qglu.4928802662337703168" type="qglu.AssertStateStep" typeId="qglu.4928802662337703202" id="4928802662337824803">
+            <link role="state" roleId="qglu.4928802662337703203" targetNodeId="8316086282569212573" resolveInfo="red" />
           </node>
         </node>
       </node>
@@ -298,6 +281,20 @@
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="8138929854666749998">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="8138929854666749999">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8316086282569138802" resolveInfo="AClassWithSM" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4928802662337671290">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4928802662337671291">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="4928802662337671292">
+              <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" />
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="e2lb.~System%dout" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4928802662337671293">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4928802662337671294">
+                <property name="value" nameId="tpee.1070475926801" value="jetzt gehts los" />
               </node>
             </node>
           </node>
